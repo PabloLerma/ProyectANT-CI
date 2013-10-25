@@ -1,14 +1,14 @@
 package ant;
 public class Suma {
-	private double resultado = 0;
+	private double total = 0;
 	
 	public double getSuma(double operando1, double operando2) {
-		resultado = operando1 + operando2;
-		return resultado;
+		total = operando1 + operando2;
+		return total;
 	}
 
 	public double incrementa(double operando) {
-		resultado = operando + 1;
-		return resultado;
+		total = operando + 1;
+		return total;
 	}
 }
